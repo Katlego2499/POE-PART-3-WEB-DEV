@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://thfvnext.bing.com/th/id/OIP.aWw5qz2c9BiHubgBrcFTLQHaEK?w=319&h=180&c=7&r=0&o=5&cb=thfvnext&pid=1.7&ucfimg=1);
+
+}
+.SecondDiv{
+    background-color: rgb(90, 87, 87);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+    align-items: center;
+    padding-bottom: 12px;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+   
+}
+a {
+
+    transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}  
+
+
+
+
+#scrollTopBtn, #scrollBottomBtn {
+    position: fixed;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+#scrollTopBtn:hover,
+#scrollBottomBtn:hover {
+    opacity: 1;
+}
+
+/* Positioning */
+#scrollTopBtn {
+    bottom: 70px;
+}
+
+#scrollBottomBtn {
+    bottom: 20px;
+}

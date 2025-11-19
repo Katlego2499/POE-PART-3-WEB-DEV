@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://thfvnext.bing.com/th/id/OIP.aWw5qz2c9BiHubgBrcFTLQHaEK?w=319&h=180&c=7&r=0&o=5&cb=thfvnext&pid=1.7&ucfimg=1);
+
+}
+.SecondDiv{
+    background-color: rgb(90, 87, 87);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+    align-items: center;
+    padding-bottom: 12px;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+a {
+
+    transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+} 
+
+
+
+
+form {
+    width: 550px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 75%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#formStatus {
+    margin-top: 10px;
+    font-weight: bold;
+}
